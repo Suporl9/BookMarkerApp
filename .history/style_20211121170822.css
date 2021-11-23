@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+/* :root{
+    --main
+} */
+* {
+  background-color: rgb(231, 230, 229);
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box; /* includes padding in height and width(the box outside doesnot get bigger when adding padding and stuff)*/
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+:root {
+  --main-bg-color: rgb(255, 255, 255);
+  --main-grey: rgb(97, 96, 95);
+}
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box; /* includes padding in height and width(the box outside doesnot get bigger when adding padding and stuff)*/
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  border: none;
+}
+body {
+  width: 80%;
+  margin: auto;
+}
+.container {
+  font-family: "Montserrat", sans-serif;
+
+  display: flex;
+  justify-content: center;
+}
+.innerContainer {
+  /* display: flex;
+  flex-direction: column; */
+  width: 50%;
+  margin: auto;
+  /* justify-content: center;
+  align-self: center; */
+}
+.ininContainer {
+  display: flex;
+  flex-direction: column;
+  /* align-content: center;
+  justify-content: center; */
+}
+.formSec {
+  display: flex;
+  flex-direction: column;
+  /* width: 0%; */
+}
+.sitesec {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--main-grey);
+  padding: 4rem;
+  border-radius: 5px;
+  color: aliceblue;
+}
+.submBtn {
+  margin-top: 5%;
+  padding: 0.5rem;
+}
+.inpClass {
+  margin-top: 5%;
+  padding: 2%;
+}
+.labc {
+  margin-top: 5%;
+}
+/* .formSec,
+.sitesec {
+  display: flex;
+  flex-direction: column;
+} */
+/* .sitesec {
+  display: flex;
+  flex-direction: column;
+}
+ */
